@@ -1,211 +1,223 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  body {
-    background-image: url(images/overlay.png),
-      linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
-    padding: 40px;
-  }
-  .header-section {
-    text-align: center;
-  }
-  .header-section h1 {
-    color: white;
-    font-weight: 100;
-    padding: 20px;
-  }
-  .header-section p,
-  a {
-    color: #bcb5d1;
-  }
-  .header-section a:hover {
-    color: white;
-  }
-   .circle {
-    border: 2px solid #f2f2f2;
-    border-radius: 50%;
-    height: 10em;
-    width: 10em;
-    position: relative; 
-    top: 10px;
-    left: 60px;
-  }
-  .phone-img { 
-    border-radius: 50%;
-    height: 9em;
-    border: 2px solid #f2f2f2;
-      position: relative;
-    top: 7px;
-  }
-  .post-description {
-    background-color: white;
-    text-align: center;
-    margin-top: 40px;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    line-height: 1.8em;
-    padding: 25px;
-  }
-  .post-description h2,
-  .icon-description h2 {
-    font-weight: 200;
-    margin-top: 40px;
-    color: #878787;
-    margin-bottom: 40px;
-  }
-  .post-description p {
-    color: #acacac;
-    font-size: 15px;
-    font-weight: 100;
-  }
-  .btn {
-    width: 100%;
-    margin-top: 15px;
-    padding: 7px;
-    border: 2px solid #dde1e3;
-    background-color: transparent;
-    border-radius: 5px;
-    display: inline-block;
-    margin-bottom: 20px;
-    text-align: center;
-    text-decoration: none;
-    height: 3em;
-  }
-  .btn:hover {
-    background-color: #f6f6f6;
-  }
-  .icon-description {
-    color: #878787;
-    background-color: white;
-    text-align: center;
-    line-height: 1.8em;
-    padding: 25px;
-  }
-  .bi-code-slash,
-  .bi-file-earmark-fill,
-  .description .bi-gem {
-    font-size: 50px;
-    font-weight: bold;
-    border-radius: 50%;
-    border: 2px solid #f2f2f2;
-    position: relative;
-    top: 52px;
-    padding: 40px;
-  }
-  .bi-code-slash {
-    color: rgb(239 168 176);
-  }
-  .bi-file-earmark-fill {
-    color: #a89cc8;
-  }
-  .description .bi-gem {
-    color: #8ecaf0;
-  }
-  .description h3 {
-    font-weight: 100;
-    margin-top: 120px;
-    margin-bottom: 20px;
-  }
-  .list-items {
-    list-style-type: none;
-    margin-top: 25px;
-    margin-bottom: 30px;
-  }
-  li p {
-    font-weight: 100;
-  }
-  li strong {
-    font-size: 20px;
-    font-weight: 100;
-  }
-  .fa-code-branch,
-  .bi-folder2-open,
-  .bi-reception-4,
-  .bi-laptop,
-  .bi-gem {
-    font-size: 60px;
-    margin-bottom: 10px;
-  }
-  .style {
-    background-color: #efa8b0;
-    height: 12em;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-  }
-  .style-one {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    height: 12em;
-  }
-  .bg-one {
-    background-color: #c79cc8;
-  }
-  .bg-two {
-    background-color: #a89cc8;
-  }
-  .bg-three {
-    background-color: #9bb2e1;
-  }
-  .bg-four {
-    background-color: #8cc9f0;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-  }
-  .address-description {
-    padding: 25px;
-    line-height: 1.8em;
-  }
-  .address-description h2 {
-    color: #fefbfb;
-    font-weight: 100;
-    margin-bottom: 20px;
-  }
-  .address-description p {
-    color: #f0c1c7;
-  }
-  /* .address-description a:hover {
-    background-color: ;
-  } */
-  .address-section h4 {
-    color: white;
-  }
-  .contact {
-    display: flex;
-    gap: 20px;
-    margin-top: 20px;
-  }
-  .list-icons {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 40px;
-  }
-  .bi-twitter,
-  .bi-facebook,
-  .bi-instagram,
-  .bi-github,
-  .bi-dribbble {
-    font-size: 25px;
-    color: white;
-    border-radius: 50%;
-    border: 1px solid white;
-    padding: 8px;
-  }
-  .contact a {
-    color: #f0c1c7;
-  }
-  .lists p {
-    margin-top: 30px;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(images/overlay.png),
+    linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  padding: 40px;
+}
+.header-section {
+  text-align: center;
+}
+.header-section h1 {
+  color: white;
+  font-weight: 100;
+  padding: 20px;
+}
+.header-section p,
+a {
+  color: #bcb5d1;
+}
+.header-section a:hover {
+  color: white;
+}
+ .circle {
+  border: 2px solid #f2f2f2;
+  border-radius: 50%;
+  height: 10em;
+  width: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top:25px;
+}
+.phone-img { 
+  border-radius: 50%;
+  height: 9em;
+  border: 2px solid #f2f2f2;
+}
+.post-description {
+  background-color: white;
+  text-align: center;
+  margin-top: 40px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  line-height: 1.8em;
+  padding: 25px;
+}
+.post-description h2::after,.icon-description h2::after {
+   content: "";
+  background-color: #dddddd;
+  background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+  background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+  margin: 15px auto 30px;
+  display: block;
+  width: 30%;
+  height: 2.5px;
+  border-radius: 2px;
+}
+.post-description h2,
+.icon-description h2 {
+  font-weight: 200;
+  margin-top: 40px; 
+  color: #878787;
+  margin-bottom: 20px; 
+}
+.post-description p {
+  color: #acacac;
+  font-size: 15px;
+  font-weight: 100;
+}
+.btn {
+  width: 100%;
+  margin-top:25px;
+  padding: 7px;
+  border: 2px solid #dde1e3;
+  background-color: transparent;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: none;
+  height: 3em;
+}
+.btn:hover {
+  background-color: #f6f6f6;
+}
+.icon-description {
+  color: #878787;
+  background-color: white;
+  text-align: center;
+  line-height: 1.8em;
+  padding: 25px;
+}
+.bi-code-slash,
+.bi-file-earmark-fill,
+.description .bi-gem {
+  font-size: 50px;
+  font-weight: bold;
+  border-radius: 50%;
+  border: 2px solid #f2f2f2;
+/*   position: relative;
+  top: 52px; */
+   padding: 40px;
+}
+.bi-code-slash {
+  color: rgb(239 168 176);
+}
+.bi-file-earmark-fill {
+  color: #a89cc8;
+}
+.description .bi-gem {
+  color: #8ecaf0;
+}
+.description h3 {
+  font-weight: 100;
+  margin-top: 40px; 
+  margin-bottom: 20px;
+}
+.list-items {
+  list-style-type: none;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+li p {
+  font-weight: 100;
+}
+li strong {
+  font-size: 20px;
+  font-weight: 100;
+}
+.fa-code-branch,
+.bi-folder2-open,
+.bi-reception-4,
+.bi-laptop,
+.bi-gem {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+.style {
+  background-color: #efa8b0;
+  height: 12em;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.style-one {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  height: 12em;
+}
+.bg-one {
+  background-color: #c79cc8;
+}
+.bg-two {
+  background-color: #a89cc8;
+}
+.bg-three {
+  background-color: #9bb2e1;
+}
+.bg-four {
+  background-color: #8cc9f0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.address-description {
+  padding: 25px;
+  line-height: 1.8em;
+}
+.address-description h2 {
+  color: #fefbfb;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+.address-description p {
+  color: #f0c1c7;
+}
+.address-section h4 {
+  color: white;
+}
+.contact {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+.list-icons {
+/*   list-style-type: none;
+  display: flex;
+  justify-content: space-around;*/
+  margin-top: 40px; 
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  padding-left: 0;
+  margin-bottom: 50px;
+}
+.bi-twitter,
+.bi-facebook,
+.bi-instagram,
+.bi-github,
+.bi-dribbble {
+  font-size: 25px;
+  color: white;
+  border-radius: 50%;
+  border: 1px solid white;
+  padding: 8px;
+}
+.contact a {
+  color: #f0c1c7;
+}
+.lists p {
+  margin-top: 30px;
+}
