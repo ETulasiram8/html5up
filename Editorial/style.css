@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  .styled-hr {
+    margin-top: 15px;
+    border: none;
+    height: 5px;
+    background-color: red;
+  }
+  nav {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+    justify-content: end;
+  }
+  .title-section {
+    padding: 30px;
+  }
+  .title-section a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+  }
+  .title-section a:hover {
+    color: red;
+    background-color: none;
+  }
+  .tattoo-img-section {
+    padding: 30px;
+  }
+  .tattoo-img {
+    border-radius: 10px;
+    width: 100%;
+  }
+  .posted-description {
+    padding: 30px;
+    box-sizing: border-box;
+  }
+  .posted-description h1,
+  h5 {
+    font-family: "Roboto Slab", serif;
+  }
+  .posted-description h1 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  .posted-description h5 {
+    color: #a3a9ae;
+    margin-bottom: 30px;
+  }
+  .posted-description p {
+    line-height: 1.5rem;
+    color: #a3a9ae;
+  }
+  .posted-description a {
+    text-decoration: none;
+  }
+  .bio-section a:hover {
+    background-color: #f3e0e0;
+  }
+  .btn {
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 10px;
+    border: 2px solid #dde1e3;
+    text-transform: uppercase;
+    background-color: transparent;
+    border-radius: 5px;
+    color: #f56a6a;
+    display: inline-block;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .btn-two {
+    width: 10em;
+  }
+  .diamond-shape {
+    transform: rotate(42deg);
+    border-radius: 0.25rem;
+    border: solid 2px #dde1e3;
+    height: 3.5em;
+    width: 3.5em;
+    margin-left: 14px;
+  }
+  .icon-content-section {
+    padding: 30px;
+  }
+  .icon-content-section h1 {
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 50px;
+  }
+  .hr-style {
+    border: none;
+    height: 4px;
+    background-color: red;
+    margin-top: 15px;
+    width: 6.5em;
+  }
+  .style-hr-1 {
+    border: none;
+    height: 4px;
+    background-color: red;
+    margin-top: 15px;
+    width: 8em;
+  }
+  .icon-description .bi-gem,
+  .bi-telegram,
+  .bi-rocket-takeoff-fill,
+  .bi-reception-4 {
+    position: relative;
+    top: 13px;
+    left: 16px;
+    font-size: 28px;
+    color: #f56a6a;
+  }
+  .icon-description h3 {
+    margin-top: 35px;
+    font-family: "Roboto Slab", serif;
+    margin-bottom: 20px;
+  }
+  .icon-description p {
+    line-height: 1.4em;
+    color: #a3a9ae;
+    margin-bottom: 30px;
+  }
+  .bio-section {
+    padding: 30px;
+  }
+  .color-img {
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 55px;
+    margin-bottom: 25px;
+  }
+  .bio-section h1 {
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    font-size: 25px;
+  }
+  .bio-section h3 {
+    font-family: "Roboto Slab", serif;
+    margin-bottom: 20px;
+  }
+  .bio-section p {
+    line-height: 1.5em;
+    color: #a3a9ae;
+  }
+  .btn-one {
+    letter-spacing: 0.1em;
+    width: 6em;
+    font-family: "Roboto Slab", serif;
+  }
+  
