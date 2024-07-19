@@ -1,0 +1,155 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  body {
+   font-family:"Source Sans Pro",Helvetica,sans-serif;
+  }
+  
+  .header-profile {
+    background-image:url("https://img.freepik.com/free-photo/photorealistic-view-tree-nature-with-branches-trunk_23-2151478075.jpg?t=st=1721117807~exp=1721121407~hmac=fa89b62b7d2fec21e444a96251733d4db1e18e33346349aa12126f6c17cc95a0&w=900");
+    text-align:center; 
+    padding:20px; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+   }
+  .avatar-img {
+    border-radius:50%;
+    height:80px;
+  }
+  .header-profile h2,a{
+    font-size:20px;
+    color:#787878;
+  } 
+  .header-profile a:hover{
+    text-decoration:none;
+    color:#49bf9d;
+  }
+  .section-description {
+     padding:30px; 
+    line-height:1.9em;
+  }
+  .section-description h3 {
+    margin-bottom:25px;
+     margin-top:25px;
+  }
+  .section-description h3,p {
+    
+    color:#787878;
+  } 
+  .btn {
+    width:100%; 
+    text-align: center;
+    display: inline-block;
+    padding: 10px 0;
+    border: 3px solid #efefef;
+    border-radius: 10px;
+    color: #a2a2a2;
+    text-decoration: none;
+    margin-top: 10px; 
+    background-color:white;
+    height:50px; 
+    font-size:15px;
+  }
+  
+  .btn:hover{
+    color: #49bf9d;
+    border-color: #49bf9d;
+  } 
+  .article-section {
+    padding:30px;
+  } 
+  .recent-work h3,h4,p {
+   color:#787878; 
+    margin-bottom:20px;
+  }
+  .recent-image {
+    border-radius:10px;
+    margin-top:20px; 
+    margin-bottom:20px;
+  } 
+  img.recent-image{
+    width:100%;
+  }
+  .touch-section {
+    padding:30px;
+  }
+  .touch-section h2 {
+    font-size:20px;
+    font-weight:100;
+    color:#787878;
+    margin-bottom:15px;
+   }
+  .touch-section p {
+    color:#787878; 
+    line-height:1.7em;
+  }
+  input[type="text"],input[type="email"],textarea {
+    margin-bottom:20px;
+    margin-top:10px;
+  }
+  .form-field {
+    margin-top:20px;
+  }
+  .form-field input[type="text"],input[type="email"],textarea {
+    padding:10px;
+  /*   width:; */
+    width:100%;
+    border-radius: 10px;
+    border: 1px solid #efefef;
+    background-color: #f7f7f7;
+    line-height:1.9em;
+  }
+  ::placeholder {
+    padding-left:10px; 
+    font-size:14px;
+  }
+  .text-area {
+    height:150px;
+  } 
+  .bi{
+    color:#787878; 
+    font-size:30px; 
+    margin-right:20px;
+    margin-bottom:10px;
+  }
+  .address p {
+    display: flex; 
+    color:#787878;
+  }
+  .address a {
+    font-size:17px;
+  } 
+  .footer-content {
+    background-image:url("https://picsum.photos/id/184/300/200");
+      text-align:center;
+     height:200px;
+    padding-top:40px; 
+    font-size:15px;
+    background-size:cover;
+  }
+  .social-icons {
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    font-weight: 200;
+    color: #787878 !important;
+    margin-bottom:20px;
+  }
+  .footer-content p>a {
+    font-size:14px;
+  }
+  .footer-content p>a:hover {
+       color: #49bf9d;
+       text-decoration:none;
+  }
+  .bi-c-circle {
+    font-size:15px;
+  }
+  .bi-github:hover, .bi-twitter:hover, .bi-dribbble:hover,.bi-envelope-open-fill:hover{
+    color: #49bf9d;
+  }
