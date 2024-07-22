@@ -125,7 +125,7 @@ body {
 
 .image-spectral {
     width: 100%;
-    /* height:auto; */
+
 }
 
 .magna-card {
@@ -145,7 +145,6 @@ body {
 .section-magna {
     background-color: rgb(43 52 61);
     padding: 40px;
-    /* height:auto; */
     /*  padding-left:55px; */
 }
 
@@ -272,6 +271,7 @@ hr {
     border: none;
     height: 2px;
     background-color: #fff;
+
     margin: 0 auto;
 }
 
@@ -279,7 +279,7 @@ hr {
     display: flex;
 }
 
-@media (min-width:768px) {
+@media (max-width: 1440px) and (min-width: 1024px){
     .magna-card {
         display: flex;
         flex-direction: row;
@@ -287,10 +287,6 @@ hr {
 
     .images {
         order: 1;
-    }
-
-    .description {
-        order: 0;
     }
 
     .section-magna {
@@ -379,9 +375,9 @@ hr {
     .btn-view {
         display: flex;
         text-align: left;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
-        padding-left: 100px;
+        padding-left: 110px;
         gap: 90px;
     }
 
@@ -403,10 +399,9 @@ hr {
 
     }
 
-
 }
 
-@media (min-width:650px) {
+@media (max-width: 1024px) and (min-width: 768px) {
     .icons-description {
         margin-top: 0px;
     }
@@ -470,4 +465,9 @@ hr {
         align-items: center;
     }
 
+    .btn {
+        width: 20em;
+    }
 }
+
+
