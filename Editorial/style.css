@@ -155,4 +155,12 @@
     width: 6em;
     font-family: "Roboto Slab", serif;
   }
-  
+  /* @media (max-width:1024px) and (min-width:768px){
+    
+    .editorial-card {
+      display:flex;
+    }
+    .tattoo-img-section {
+      order:1;
+    }
+  } */
