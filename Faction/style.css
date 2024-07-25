@@ -18,12 +18,16 @@ li {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
+
 }
 
 .navbar-list {
     display: flex;
     justify-content: end;
     align-items: center;
+    display: none;
 
 }
 
@@ -43,6 +47,7 @@ li {
     font-size: 24px;
     color: white;
     font-weight: bold;
+    margin-left: 30px;
 }
 
 /* div {
@@ -94,21 +99,21 @@ li {
 }
 
 .description-container {
-    padding: 30px;
+    padding: 25px;
     margin: 0px;
 
 }
 
 .description-container h1 {
     color: #3ed8c4;
-    font-size: 26px;
+    font-size: 32px;
     font-weight: 100;
     letter-spacing: 0.03em;
     margin: 0px;
 }
 
 .description-container p {
-    color: #8888a7;
+    color: #8f9ba7;
     line-height: 1.5em;
     margin: 0px;
     margin-top: 17px;
@@ -116,7 +121,7 @@ li {
 
 .icon-list {
     display: flex;
-    padding: 30px;
+    padding: 20px 30px;
 }
 
 .icon-list h2,
@@ -149,7 +154,7 @@ li {
 }
 
 .image-card {
-    padding: 30px 25px;
+    padding: 10px 25px;
 }
 
 .btn-learn-more {
@@ -162,7 +167,6 @@ li {
 .image-card h3,
 .image-card p {
     margin: 0px;
-    margin-top: 20px;
 }
 
 .image-card h3 {
@@ -178,19 +182,15 @@ li {
     font-size: 14px;
 }
 
-.images {
-    margin-top: 30px;
-}
 
 #para {
     margin: 0px;
-    margin-top: 17px;
     font-size: 13px;
 }
 
 .description-container h3 {
     margin: 0px;
-    margin-top: 15px;
+    /* margin-top: 15px; */
 }
 
 .card {
@@ -261,8 +261,8 @@ li {
 .image-card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     gap: 40px;
 }
 
