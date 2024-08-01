@@ -234,3 +234,126 @@ a {
     display: inline-block;
     padding-left: 5px;
 }
+
+@media (max-width:1440px) and (min-width:600px){
+    .desktop-card {
+        display:flex;
+    }
+    .desktop-card .images {
+        height:500px;
+        order:1; 
+        border-radius:0 4px 4px 0 ;
+    }
+    .desktop-card .image-one {
+        height:500px;
+        border-radius:4px 0 0 4px;
+    } 
+    .desktop-container {
+        padding:6rem 5rem;
+    }
+    .desktop-veiw-card {
+        padding-top:136px;
+        padding-bottom:104px;
+    }
+    .actions-container {
+        margin:0 150px;
+    }
+    .image-veiw-card {
+        display:flex;
+        justify-content: center;
+        gap:80px;
+    }
+    .card-view-items {
+        padding-top:120px;
+        padding-bottom:100px;
+    }
+    .card-header-items {
+        margin:0px 180px 50px 180px;
+    } 
+    .card-header-items p {
+          padding:0px 160px 0px 160px; 
+    }
+    .card-list .image-one {
+        border-radius:4px 0px 0px 4px;
+        height:500px;
+    }
+    .desktop-bottom-view {
+        margin:0 150px;
+    }
+    .view-card {
+        background-color: #292f33;
+    }
+    .card-list .image-three{
+        border-radius: 0px 4px 4px 0px;
+        order:1;
+        height:500px;
+    }
+    .card-heading h2 {
+        font-size:40px;
+    }
+    .card-heading p {
+       font-size:17px;
+    }
+    
+    .bottom-view {
+        margin:0px 140px;
+    }
+    .bottom-view h2 {
+        font-size:40px;
+    }
+    .bottom-view p {
+        font-size:18px;
+        font-weight:100;
+    }
+    .forms-container textarea {
+        width:42rem;
+        margin-top:18px;
+    }
+    .forms-container input[type="text"],.forms-container input[type="email"]{
+        padding:17px;
+    }
+    .forms-container input[type="email"]{
+        margin-left:50px;
+    
+    }
+    ::placeholder {
+        color:#9c9d9c;
+        font-size:16px;
+    }
+    .btn-send {
+        padding:19px 35px;
+        margin-top:20px;
+        font-size:12px;
+    }
+    .touch-card {
+        margin:0 180px;
+        padding:0 150px;
+    }
+    .touch-card p {
+        font-size:18px;
+    }
+    .touch-card h2 {
+        font-size:40px;
+    }
+    .desktop-container h3 {
+        font-size:26px;
+    }
+    .desktop-container p {
+        font-size:17px;
+        line-height:1.9rem;
+    }
+    .desktop-container span {
+        font-size:17px
+    }
+    .banner div>h1 {
+        font-size:40px;
+        margin-top:20px;
+    }
+    .banner div>p {
+        font-size:21px;
+    }
+    .banner div {
+        background-color: #3dc5ad;
+        height:12rem;
+    }
+}
