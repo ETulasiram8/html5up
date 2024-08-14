@@ -1,0 +1,261 @@
+* {
+    margin:0;
+    padding:0;
+}
+body{
+    box-sizing:border-box;
+    font-family: "Lato", Arial, Helvetica, sans-serif;;
+}
+.main-header {
+    background-image: url("https://picsum.photos/id/100/200/300");
+    background-size:cover;
+}
+.nav-list {
+    list-style-type: none;
+    display:flex;
+    gap:5px
+}
+.navbar {
+    display:flex;
+    justify-content:space-between; 
+    padding:10px 12px;
+}
+.navbar h2,.nav-list li {
+    font-size:14px;
+}
+.nav-list .nav-style {
+    color:#8a8a8a;
+}
+.header-container {
+    text-align:center;
+}
+.header-container h1 {
+    font-size:30px;
+    font-weight:200;
+    margin-bottom:20px;
+    line-height: 1.3em;
+
+}
+.header-container p {
+    font-size:17px;
+    margin-bottom:30px;
+    color:#8a8a8a; 
+    font-weight:100;
+}
+.header-card {
+    padding:5rem 1.4rem 4rem 1.4rem;
+}
+.btn {
+    display:inline-block;
+    text-align:center;
+    border-radius:25px;
+    border:3px solid #23b1ec; 
+    padding:11px 30px; 
+    text-decoration: none;
+    font-size:14px;
+    color:#23b1ec; 
+    font-weight:600;
+}
+.icon-card {
+    padding:0px 15px;
+    text-align:center;
+}
+.bi-graph-up-arrow,.bi-gem,.bi-camera-fill {
+    border-radius:50%;
+    border:3.5px solid #23b1ec; 
+    color: #23b1ec; 
+    padding:19px;
+    font-size:32px;
+}
+.card {
+    padding:40px 0px 14px;
+}
+.icon-card h3 {
+  font-size:19px;
+  margin-top:45px;
+  margin-bottom:15px;
+  color:#3B3B3B; 
+  font-weight: 400;
+}
+.icon-card p {
+    margin-bottom:60px;
+    font-size:15px;
+    color:#8a8a8a; 
+    padding:0px 20px
+}
+.description-container {
+    padding:40px 14px;
+    text-align: center;
+}
+.description-list {
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+}
+.description-list li {
+    padding:12px 25px;
+} 
+.description-card {
+background-color:  #23b1ec;
+}
+.description-container h2 {
+    margin:0px 20px 20px; 
+    color:white;
+    font-weight:100;
+}
+.description-container p {
+    color:white;
+    font-size:15px;
+    line-height: 1.8em;
+    padding:0px 4px;
+    color:#9cdcf6;
+}
+.list-one {
+    background-color:#fff;
+    color:#23b1ec;
+    font-size:15px;
+}
+.list-two {
+    color:white;
+    font-size:15px;
+}
+.image-container {
+    text-align:center;
+    padding:40px 0px 14px 0px;
+    margin:0px 20px;
+    margin-bottom:30px;
+}
+.img-computer {
+    border-radius: 50%;
+    width:100%; 
+    
+}
+.image-pic {
+    padding:0px 70px;
+}
+.description {
+    margin-top:25px;
+}
+.description h4 {
+    font-size:17px;
+    margin-bottom:10px;
+    font-weight:100;
+    color:#3B3B3B;
+}
+.description p {
+    color:#8a8a8a; 
+    font-size:14px;
+    line-height:1.6em;
+}
+.green-container  {
+    padding:30px 0px 14px 0px;
+    text-align:center;
+    
+}
+.green-card {
+    background-color: #80bb2d;
+}
+.imag-chairs {
+    width:100%;
+}
+.image-group-chair {
+    padding:30px 20px 0px 20px;
+}
+.green-container h2{
+    margin:0px 20px 20px; 
+    color:white;
+    font-weight:100;
+}
+.green-container p {
+    color:#d2e7b5;
+    font-size:14px;
+    line-height:1.6em;
+    margin:0px 20px 20px 20px;
+}
+.image-section {
+    background-color: #f7f7f7;
+    padding-bottom: 25px;
+}
+.image-card-section .heading {
+    color:#525252;
+}
+.image-card-section .para {
+    color:#888888; 
+}
+.image-container-description  {
+    padding:30px 30px 2px; 
+    text-align:center;
+    line-height: 1.7em;
+}
+.image-container-description p {
+    font-size:15px;
+    color:#8a8a8a; 
+    margin-top:20px;
+    margin-bottom:25px;
+    
+}
+.images {
+    width:100%;
+}
+.image-section-card {
+    margin:10px 25px 25px 25px;
+    background-color: #fff;
+}
+.btn-more {
+    padding:5px 25px;
+    margin-bottom:30px;
+}
+.card-one {
+    margin:10px 25px 25px 25px;
+    background-color: #fff;
+}
+.footer-list {
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+    gap:20px;
+    font-size:25px;  
+    margin-top:20px;
+}
+.footer-card{
+    padding:20px 15px;
+
+}
+.footer-section {
+    text-align: center;
+    margin-top: 33px;
+}
+.footer-section h4 {
+  font-size:17px;
+  color:#3B3B3B;
+  margin-bottom: 22px;
+}
+.lists {
+    list-style-type: none;
+}
+.link {
+    margin-top:15px;
+}
+.link a {
+    color:#8a8a8a;
+    text-decoration-style: dotted;
+}
+.links a {
+    color:#8a8a8a;
+    text-decoration-style: dotted;
+}
+hr {
+    margin-top:33px;
+}
+.major {
+     font-size:26px;
+    color:#8a8a8a;
+    text-decoration-style: dotted;
+    font-weight: 100;
+}
+.footer-end {
+    color:#ACACAC; 
+    text-align: center;
+    padding:50px 50px;
+    
+}
