@@ -20,6 +20,17 @@
     transition: opacity 1.5s ease-in-out;
 }
 
+.carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.carousel-indicators .active {
+    background-color: #fff;
+}
+
 .heading {
     font-size: 40px;
 }
@@ -32,7 +43,9 @@
     background-color: #e27563 !important;
 }
 
-.bi {
+.bi-cloud-arrow-up-fill,
+.bi-arrow-down-up,
+.bi-gear-fill {
     font-size: 40px;
     background-color: white;
     border-radius: 50%;
@@ -78,35 +91,40 @@
     border: 2px solid #e68a7a;
     margin-left: 15px;
 }
+
 .custom-border {
-    border:10px solid white;
+    border: 10px solid white;
 }
+
 .custom-card-one {
-    width:45%;
+    width: 45%;
 }
+
 .custom-card-two {
-    width:70%
+    width: 70%
 }
+
 .custom-border-one {
-    border:10px solid gainsboro;
+    border: 10px solid gainsboro;
 }
+
 .custom-span {
-    color:#7e8fa5;
+    color: #7e8fa5;
     font-size: 13px;
 }
-.descertion{
-    background-color: #2a3037;
+
+.custom-margin {
+    margin-left: 200px;
 }
-.icons-links{
-    background-color: #e68a7a;
-    color:aliceblue;
-    margin-right: 20px;
-    
+
+.bi-house-fill,
+.bi-envelope-fill,
+.bi-telephone-fill,
+.bi-chat-fill {
+    color: white;
+    font-size: 22px;
+    padding: 12px;
+    background-color: #e27563;
+    margin-right: 10px;
 }
-.para-one{
-    background-color: #2a3037;
-    border: 1px solid white;
-}
-.information{
-     width: 100%; 
-}
+
