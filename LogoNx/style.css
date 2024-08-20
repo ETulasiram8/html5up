@@ -25,11 +25,11 @@ body {
     border-bottom: 1px solid #ddd;
 }
 
-.fs-14 {
+.span-heading {
     font-size: 14px;
 }
 
-.fs-20 {
+.nav-bar {
     font-size: 20px;
 }
 
@@ -87,10 +87,10 @@ body {
     width: 300px;
     overflow-y: scroll;
     line-height: 2;
-    height: 1000px;
+    height:100vh;
 }
 
-.left-sidbar .fs-14 {
+.left-sidbar .span-heading {
     color: #64748b;
 }
 
@@ -99,7 +99,7 @@ body {
     font-weight: 700;
 }
 
-.fs-12 {
+.sidebar-card {
     display: inline-block;
     color: #000;
     text-decoration: none;
@@ -129,7 +129,7 @@ body {
     line-height: 1.7;
 }
 
-.fs-36 {
+.header-description {
     font-size: 36px;
     margin-bottom: 34px;
     font-weight: 900;
