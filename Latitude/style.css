@@ -1,0 +1,405 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+}
+
+body {
+    font-family: "Open Sans Condensed", Helvetica, sans-serif;
+}
+
+.Latitude-card {
+    padding: 73px 29px 53px 29px;
+    background-image: url("./assets/overlay.png"), url("./assets/banner.jpg");
+    background-color: #333c40;
+    background-position: top left, center center;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
+    text-align: center;
+}
+
+.main-heading {
+    background-color: #f4715c;
+    font-size: 26px;
+    padding: 13px 25px;
+    color: white;
+    font-weight: 600;
+}
+
+.Latitude-card h2 {
+    font-size: 22px;
+    color: white;
+    margin-top: 30px;
+}
+
+.Latitude-card p {
+    margin-top: 13px;
+    font-size: 15px;
+    color: #B8BFC2;
+}
+
+.description-card {
+    padding: 29px 14px;
+}
+
+.bg-para {
+    background-color: #f7f9f9;
+}
+
+.span-card {
+    font-size: 19px;
+    font-weight: 100;
+    color: #575D60;
+}
+
+.span-card h2 {
+    font-weight: 600px;
+    font-size: 19px;
+}
+
+.styled {
+    margin-top: 25px;
+}
+
+.description-para {
+    padding-top: 29px;
+    color: #7E8487;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+.btn {
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    border: 2px solid#e8eaeb;
+    background-color: transparent;
+    color: #575D60;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 0px;
+    margin-top: 25px;
+}
+
+.btn-learn {
+    padding: 9px 0;
+    margin-bottom: 29px;
+    font-size: 15px;
+    color: #575D60;
+}
+
+.image-card h2 {
+    font-size: 22px;
+    margin-bottom: 22px;
+}
+
+.image-card p {
+    font-size: 15px;
+    color: #7E8487;
+}
+
+.icon-card {
+    margin-bottom: 58px;
+}
+
+.list {
+    list-style-type: none;
+    color: #7E8487;
+}
+
+.list>li {
+    margin-top: 29px;
+}
+
+.bi-image,
+.bi-gear-fill,
+.bi-file-earmark-plus {
+    border: 2px solid #f4715c;
+    padding: 5px;
+    background-color: #f4715c;
+    color: white;
+    margin-right: 18px;
+}
+
+.images {
+    width: 100%;
+}
+
+.description h3 {
+    font-size: 18px;
+    color: #575D60;
+    margin-bottom: 18px;
+    margin-top: 20px;
+}
+
+.description p {
+    color: #7E8487;
+    font-size: 15px;
+}
+
+.description-one h3 {
+    margin: 0;
+    margin-top: 25px;
+}
+
+#para-one {
+    font-size: 17px;
+    font-style: italic;
+    color: #b8bfc2;
+    margin-bottom: 27px;
+}
+
+.description-two h3 {
+    color: #575D60;
+}
+
+.description-two p {
+    color: #7E8487;
+}
+
+.image-description {
+    margin-top: 23px;
+    margin-bottom: 28px;
+    color: #7E8487;
+}
+
+.footer-card {
+    background-color: #333c40;
+    padding: 39px 14px;
+}
+
+.footer-card h3 {
+    font-size: 17px;
+    color: white;
+
+}
+
+.anchor {
+    text-decoration: none;
+    color: #CCCECF;
+    font-size: 14px;
+}
+
+.list-one {
+    list-style-type: none;
+}
+
+.list-one .list-items {
+    padding: 15px 0;
+    border-bottom: 2px solid#475053;
+}
+
+.list-items>a:hover {
+    color: rgba(255, 0, 0, 0.568);
+}
+
+.list-end {
+    padding: 15px 0;
+}
+
+.footer-items {
+    margin-top: 27px;
+}
+
+.footer-items h3 {
+    margin-bottom: 17px;
+
+}
+
+.footer-items p {
+    color: #CCCECF;
+    margin-bottom: 26px;
+    font-size: 14px;
+}
+
+.address {
+    display: flex;
+    margin-bottom: 18px;
+}
+
+.bi-geo-alt-fill,
+.bi-telephone-fill,
+.bi-envelope-fill,
+.bi-twitter {
+    border: 2px solid #f4715c;
+    height: 2em;
+    padding: 5px;
+    background-color: #f4715c;
+    color: white;
+    margin-right: 15px;
+
+}
+
+.footer-end {
+    text-align: center;
+    color: #858A8c;
+    font-size: 12px;
+}
+
+@media (max-width:1440px) and (min-width:600px) {
+    .Latitude-card {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .main-heading {
+        margin: 0 auto;
+        width: 6em;
+        padding: 7px 8px;
+    }
+
+    .Latitude-card h2 {
+        font-size: 33px;
+    }
+
+    .Latitude-card p {
+        font-size: 15px;
+    }
+
+    .description-para {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .bg-para {
+        text-align: center;
+        padding: 88px 120px;
+    }
+
+    .span-card .strong-one {
+        font-size: 30px;
+        font-weight: 600;
+        padding-left: 120px
+    }
+
+    .span-card {
+        font-size: 30px;
+        font-weight: 100;
+        padding-right: 150px;
+    }
+
+    .btn {
+        width: 11em;
+        font-size: 18px;
+        margin: 0;
+        padding: 10px 0px;
+    }
+
+    .description-para p {
+        font-size: 14.6px;
+        max-width: 650px;
+    }
+
+    .desktop-card {
+        display: flex;
+        padding: 83px 120px 88px 120px;
+
+    }
+
+    .image-card {
+        padding-left: 36px;
+    }
+
+    .image-card h2 {
+        font-size: 28px;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .description h3 {
+        font-size: 19px;
+    }
+
+    .btn-learn {
+        font-size: 15px;
+        width: 8em;
+        padding: 7px 10px;
+        margin-top: 29px;
+    }
+
+    .images {
+        border: 5px solid #e8eaeb;
+    }
+
+    .large-image {
+        padding-left: 36px;
+    }
+
+    .description-one h3 {
+        font-size: 19px;
+    }
+
+    .desktop-view-image {
+        display: flex;
+        padding-top: 0;
+    }
+
+    .image-view {
+        padding-left: 36px;
+    }
+
+    .large-view-image {
+        padding: 60px 120px 88px 120px;
+    }
+
+    .footer-card {
+
+        padding: 80px 120px;
+    }
+
+    .footer-view {
+        display: flex;
+        gap: 36px;
+    }
+
+    .footer-container {
+        width: 25%
+    }
+
+    .footer-items p {
+        max-width: 600px;
+    }
+
+    .footer-items {
+        margin-top: 0px;
+    }
+
+    .footer-items h3 {
+        font-size: 18px;
+        margin-bottom: 0px;
+
+    }
+
+    .footer-items p {
+        margin-top: 17px;
+    }
+
+    .address-section {
+        display: flex;
+        gap: 25px;
+    }
+
+    .footer-address h3 {
+        margin-bottom: 18px;
+    }
+
+    .bi-geo-alt-fill,
+    .bi-telephone-fill,
+    .bi-envelope-fill,
+    .bi-twitter {
+        margin-top: 10px;
+    }
+
+    .footer-end {
+        padding-top: 88px;
+    }
+
+}
