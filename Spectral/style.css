@@ -1,0 +1,473 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.075em;
+    line-height: 1.65em;
+}
+
+.header-section {
+    background-image: -webkit-linear-gradient(top,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url("https://res.cloudinary.com/dv7yq8yly/image/upload/v1721458533/banner._nisa3x.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-spectral {
+    text-align: center;
+    padding: 10px;
+}
+
+.header-spectral a {
+    color: white;
+    text-decoration-style: dotted;
+}
+
+.header-spectral a:hover {
+    text-decoration: none;
+}
+
+.btn {
+    margin-top: 30px;
+    padding: 6px;
+    border: 2px solid red;
+    background-color: transparent;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(237 73 51);
+    width: 14em;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.header-spectral h1 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.header-spectral p {
+    margin-top: 25px;
+}
+
+.main-section {
+    background-color: rgb(33 178 166);
+}
+
+.main-section-card {
+    text-align: center;
+    padding: 40px;
+}
+
+.main-section-card h1 {
+    margin-bottom: 20px;
+}
+
+.main-section-card p {
+    color: rgb(200 236 233);
+    margin-top: 20px;
+}
+
+.diamond-shape {
+    transform: rotate(45deg);
+    border-radius: 0.25rem;
+    border: solid 2px rgb(29 156 145);
+    height: 4em;
+    width: 4em;
+    margin-bottom: 30px;
+}
+
+.bi-gem,
+.bi-code-slash,
+.bi-heart {
+    font-size: 30px;
+    display: inline-block;
+    transform: rotate(-45deg);
+    position: relative;
+    top: 14px;
+}
+
+.bi-gem {
+    color: rgb(0 255 204);
+}
+
+.bi-code-slash {
+    color: rgb(118 221 255);
+}
+
+.bi-heart {
+    color: rgb(0 240 255);
+}
+
+.icon-shape {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.image-spectral {
+    width: 100%;
+
+}
+
+.magna-card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-magna h1,
+.main-section-card h1,
+.header-spectral h1,
+.accumsan-card h1 {
+    letter-spacing: 0.2em;
+    font-weight: 800;
+}
+
+.section-magna {
+    background-color: rgb(43 52 61);
+    padding: 40px;
+    /*  padding-left:55px; */
+}
+
+.section-magna p {
+    margin-top: 30px;
+}
+
+.icon-card {
+    background-color: rgb(80 83 147);
+}
+
+.accumsan-card {
+    padding: 40px;
+    text-align: center;
+}
+
+.accumsan-card h1 {
+    margin-bottom: 20px;
+}
+
+.accumsan-card p {
+    margin-top: 20px;
+    color: rgb(207 208 226);
+    padding: 15px;
+}
+
+.icons-description {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.icons-description h3 {
+    margin-top: 25px;
+    letter-spacing: 0.1em;
+    font-weight: 750;
+}
+
+.icons-description p {
+    color: rgb(207 208 226);
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.bi-telegram,
+.bi-laptop,
+.bi-headphones,
+.bi-flag {
+    font-size: 30px;
+    color: rgb(0 255 204);
+}
+
+.icons-description .bi-code-slash,
+.icons-description .bi-heart {
+    font-size: 35px;
+    color: rgb(0 255 204);
+    display: inline-block;
+    transform: rotate(2deg);
+}
+
+.btn-card {
+    background-image: -webkit-linear-gradient(top,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url("https://res.cloudinary.com/dv7yq8yly/image/upload/v1721458533/banner._nisa3x.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-learn-more {
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 14px;
+}
+
+.footer-card {
+    text-align: center;
+    background-color: rgb(29 36 42);
+}
+
+.list-icons {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 25px;
+    padding: 40px;
+}
+
+li a {
+    color: rgb(142 146 149);
+    font-size: 20px;
+}
+
+li a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.list {
+    font-size: 14px;
+    color: rgb(142 146 149);
+}
+
+.list a {
+    font-size: 15px;
+    text-decoration-style: dotted;
+}
+
+.listed {
+    padding-bottom: 25px;
+}
+
+hr {
+    border: none;
+    height: 0.7px;
+    background-color: black;
+}
+
+.styled {
+    border: none;
+    height: 2px;
+    background-color: #fff;
+
+    margin: 0 auto;
+}
+
+.image-pic {
+    display: flex;
+}
+
+@media (max-width: 1440px) and (min-width: 1024px){
+    .magna-card {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .images {
+        order: 1;
+    }
+
+    .section-magna {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        padding-left: 55px;
+
+    }
+
+    .section-magna p {
+        margin-top: 15px;
+    }
+
+    .large-view {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 45px 70px 45px;
+
+    }
+
+    .icons-description {
+        margin-top: 0px;
+        display: flex;
+        text-align: left;
+    }
+
+    .icons-description h3 {
+        margin-left: 18px;
+    }
+
+    .tablet-view {
+        display: flex;
+    }
+
+    .hr-style {
+        display: none;
+    }
+
+    .bg-color-one {
+        background-color: #4d508e;
+    }
+
+    .bg-color-two {
+        background-color: #4a4d89;
+    }
+
+    .bg-color-three {
+        background-color: #484a83;
+    }
+
+    .bg-color-four {
+        background-color: #45477e;
+    }
+
+    .bg-color-five {
+        background-color: #424479;
+    }
+
+    .bg-color-six {
+        background-color: #3f4174;
+    }
+
+    .bi-telegram,
+    .bi-laptop,
+    .bi-headphones,
+    .bi-flag {
+        font-size: 29px;
+        color: rgb(0 255 204);
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+
+    .icons-description .bi-code-slash,
+    .icons-description .bi-heart {
+        font-size: 29px;
+        color: rgb(0 255 204);
+        display: inline-block;
+        transform: rotate(2deg);
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+
+    .btn-view {
+        display: flex;
+        text-align: left;
+        justify-content: center;
+        align-items: center;
+        padding-left: 110px;
+        gap: 90px;
+    }
+
+    .btn-view p {
+        margin-top: 15px;
+    }
+
+    .listed {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .lists {
+        border-right: 1px solid rgb(142 146 149);
+        padding-right: 20px;
+        height: 25px;
+
+    }
+
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .icons-description {
+        margin-top: 0px;
+    }
+
+    .tablet-view {
+        display: flex;
+    }
+
+    .hr-style {
+        display: none;
+    }
+
+    .bg-color-one {
+        background-color: #4d508e;
+    }
+
+    .bg-color-two {
+        background-color: #4a4d89;
+    }
+
+    .bg-color-three {
+        background-color: #484a83;
+    }
+
+    .bg-color-four {
+        background-color: #45477e;
+    }
+
+    .bg-color-five {
+        background-color: #424479;
+    }
+
+    .bg-color-six {
+        background-color: #3f4174;
+    }
+
+    .listed {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .lists {
+        border-right: 1px solid rgb(142 146 149);
+        padding-right: 20px;
+        height: 25px;
+
+    }
+
+    .large-view {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 45px 70px 45px;
+    }
+
+    .active {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn {
+        width: 20em;
+    }
+}
+
+
